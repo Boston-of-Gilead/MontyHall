@@ -25,7 +25,7 @@ for i in range(101):
 
     #doors are now arranged, host gives choice to switch
     # playerChoice = random.randrange(2)
-    playerChoice = 1 #fixed setting
+    playerChoice = 1 #fixed setting where player chooses to switch. set to 0 for always stay.
     #0 = stay, 1 = switch
     if playerChoice == 1:
         # print('p/s/w/h = ', playerDoor,pAvailableDoors[0],winningDoor,hostDoor)
